@@ -2,7 +2,7 @@
 
 It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. The first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
-This assignment will utilises: 
+This assignment utilises: 
  * ERD skills through QuickDatabaseDiagrams
  * CSV file importing to SQL platform PgAdmin4 with Postgress
     * CSV files found in DATA folder
@@ -16,7 +16,9 @@ This assignment will utilises:
 
 ![DBD ERD image](./images/ERD_image.png)
 
+## Sample of Queries in PgAdmin4
 
+![SQL code](./images/sample_code.png)
 
 
 ## Histogram of Salary Range for company
