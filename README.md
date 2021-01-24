@@ -12,6 +12,26 @@ This assignment will utilises:
  * Juypter notebook for testing if data provided was ficticious material 
     * Using sqlalchemy, matplotlib, pandas and numpy
 
-ERD for tables used
+## ERD used to connect tables
 
 ![DBD ERD image](./images/ERD_image.png)
+
+
+
+
+## Histogram of Salary Range for company
+
+![Histogram](./images/histogram_range_salary.png)
+
+## Bar Graph of Average salary by Title
+
+![Avg Salary by Title](./images/avg_salary_title_graph.png)
+
+## Outcome
+Upon reviewing the data, the data is found to be false. 
+<br>
+In so much that it was fabricated by the company as a test and not actual company records.
+<br>
+The employee id we were given returned April Foolsday, as shown in the dataframe below
+
+![my_id](./images/my_id_result.png)
