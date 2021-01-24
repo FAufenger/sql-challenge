@@ -2,4 +2,4 @@
 
 ERD for tables used
 
-![DBD image](./image/DBD_image.png)
+![DBD ERD image](./image/ERD_image.png)
