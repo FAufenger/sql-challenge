@@ -10,7 +10,7 @@ This assignment will utilises:
  * Querying the CVS data in PgAdmin4 to get sepcific results
     * query listed in query.sql along with corresponding code
  * Juypter notebook for testing if data provided was ficticious material 
-    * Using sqlalchemy, matplotlib, pandas and numbpy
+    * Using sqlalchemy, matplotlib, pandas and numpy
 
 ERD for tables used
 
