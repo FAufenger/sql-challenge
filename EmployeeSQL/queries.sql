@@ -58,9 +58,18 @@ ORDER BY emp.last_name ASC, emp.first_name ASC;
 
 --  7. List all employees in the Sales and Development departments, including: 
 --      their employee number, last name, first name, and department name.
-
+-- Looked into departments.csv Sales dept_no d007 and development is dept_no d005
+SELECT emp.emp_no, emp.last_name, emp.first_name, dept.dept_name
+FROM employees AS emp
+	INNER JOIN dept_emp ON dept_emp.emp_no = emp.emp_no
+	INNER JOIN departments AS dept ON dept.dept_no = dept_emp.dept_no
+WHERE dept.dept_no IN ('d007', 'd005')
+ORDER BY dept.dept_name ASC, emp.last_name ASC, emp.first_name ASC;
 
 
 --  8. In descending order, list the frequency count of employee last names, 
 --      i.e., how many employees share each last name.
-
+SELECT last_name, COUNT(first_name) AS emp_count
+FROM employees
+GROUP BY last_name
+ORDER BY emp_count DESC;
